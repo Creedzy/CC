@@ -33,7 +33,7 @@ import com.amazonaws.services.s3.model.S3ObjectSummary;
 
 public class s3methods {
 static AmazonS3Client s3;
-static String bucketName = "elasticbeanstalk-eu-west-1-296450163037";
+
 public static void init(){	AWSCredentials credentials = null;
     try {
        
